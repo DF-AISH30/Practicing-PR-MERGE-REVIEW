@@ -29,7 +29,15 @@ p {
     line-height: 1.6;
 }
 
-/* Button */
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Common Button Styling */
 button {
     background-color: #2563eb;
     color: white;
@@ -44,4 +52,13 @@ button {
 /* Button Hover */
 button:hover {
     background-color: #1e40af;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #16a34a;
+}
+
+.login-btn:hover {
+    background-color: #15803d;
 }
